@@ -1,10 +1,10 @@
-sky1=int(input())
-sky2=int(input())
-sky3=int(input())
-if((sky1 > sky2) and (sky1 < sky3)):
-  print(sky1)
-elif((sky2 > t1) and (sky2 < t3)):
-  print(sky2)
+sea1=int(input())
+sea2=int(input())
+sea3=int(input())
+if((sea1 > ses2) and (sea1 < sea3)):
+  print(sea1)
+elif((sea2 > t1) and (sea2 < sea3)):
+  print(sea2)
 else:
-  print(sky3)
+  print(sea3)
   
