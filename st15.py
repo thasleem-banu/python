@@ -1,7 +1,5 @@
-sea1=int(input())
-sea2=int(input())
-sea3=int(input())
-if((sea1 > ses2) and (sea1 < sea3)):
+sea1,sea2,sea3=map(int,input().split())
+if((sea1 > sea2) and (sea1 < sea3)):
   print(sea1)
 elif((sea2 > t1) and (sea2 < sea3)):
   print(sea2)
