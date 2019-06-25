@@ -1,0 +1,9 @@
+thas=int(input())
+if(thas%4==0):
+  print("Yes")
+elif(thas%400==0):
+  print("Yes")
+elif(thas%100==0):
+  print("no")
+else:
+  print("no")
