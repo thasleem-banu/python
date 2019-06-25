@@ -1,8 +1,8 @@
 thas=int(input())
 if(thas%4==0):
-  print("Yes")
+  print("yes")
 elif(thas%400==0):
-  print("Yes")
+  print("yes")
 elif(thas%100==0):
   print("no")
 else:
