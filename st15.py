@@ -1,10 +1,10 @@
-t1=int(input())
-t2=int(input())
-t3=int(input())
-if((t1 > t2) and (t1 < t3)):
-  print(t1)
-elif((t2 > t1) and (t2 < t3)):
-  print(t2)
+sky1=int(input())
+sky2=int(input())
+sky3=int(input())
+if((sky1 > sky2) and (sky1 < sky3)):
+  print(sky1)
+elif((sky2 > t1) and (sky2 < t3)):
+  print(sky2)
 else:
-print(t3)
+  print(sky3)
   
