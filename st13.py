@@ -1,6 +1,7 @@
-as=input()
-if(as=='A' or as=='a' or as=='E' or as=='e' or as=='I' or as=='i' or as=='O' or as=='o' or as=='U' or as=='u'):
+asd=raw_input("Enter variable")
+if(asd=='A' or asd=='a' or asd=='E' or asd=='e' or asd=='I' or asd=='i' or asd=='O' or asd=='o' or asd=='U' or asd=='u'):
   print("Vowel")
-elif(as!='A' or as!='a' or as!='E' or as!='e' or as!='I' or as!='i' or as!='O' as!='o' or as!='U' or as!='u'):
+elif(asd!='A' or asd!='a' or asd!='E' or asd!='e' or asd!='I' or asd!='i' or asd!='O' asd!='o' or asd!='U' or asd!='u'):
   print("Consonant")
-else  print("invalid")
+else:  
+  print("invalid")
