@@ -1,0 +1,4 @@
+c,v=map(int,input().spilt())
+for j in range (c+1,vakid):
+  if(j%2==0):
+    print(j,end=" ")
