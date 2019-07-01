@@ -1,0 +1,5 @@
+ch1,va1=map(int,input().split())
+st1,fi1=map(int,input().split())
+hu=abs(ch1-st1)
+gu=abs(va1-fi1)
+print(hu,gu)
