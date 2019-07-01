@@ -1,3 +1,3 @@
-che=int(input())
+3che=int(input())
 vald=list(map(int,input().split()[:che]))
 print(max(vald))
