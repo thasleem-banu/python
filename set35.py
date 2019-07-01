@@ -1,0 +1,5 @@
+check=int(input())
+valid=list(map(int,input().split()[:check]))
+valid.sort()
+que=int((len(valid))/2)
+print(valid[que])
