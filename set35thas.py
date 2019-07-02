@@ -1,5 +1,5 @@
 checkk=int(input())
 validd=list(map(int,input().split()[:checkk]))
 validd.sort()
-quee=int((len(valide))/2)
+quee=int((len(validd))/2)
 print(validd[quee])
