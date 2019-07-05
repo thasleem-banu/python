@@ -4,4 +4,4 @@ for i in rru1:
        print("yes")
        break
 else:
-print("no")
+  print("no")
