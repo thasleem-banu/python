@@ -6,6 +6,6 @@ if((r1%2)==0):
    q1[int(r1/2)]="*"
    q1[int(r1/2)-1]="*"
 else:
-   q[int(r1/2)]="*"
+   q1[int(r1/2)]="*"
 s1=s1.join(q1)
 print(s1)
