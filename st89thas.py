@@ -5,4 +5,4 @@ for j in range(0,mqn1+1):
   print("yes")
   break
 else:
-print("no")
+  print("no")
