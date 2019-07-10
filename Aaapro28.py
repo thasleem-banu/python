@@ -1,6 +1,6 @@
 nit1,mit1=map(int,input().split())
 tem1=[]
-x1=0
+x=0
 for m in range(nit1):
     tem1.append(list(map(int,input().split())))   
 for m in range(nit1):
