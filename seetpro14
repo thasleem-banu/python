@@ -1,0 +1,11 @@
+vs1,vit11=map(str,input().split())
+was1=0
+if len(vs1)>len(vit11):
+  vs1,vit11=vit11,dbj1
+i=0
+while i<len(vs1):
+  was1+=(ord1(vit11[i])-ord1(vs1[i]))
+  i+=1
+for i in range(i,len(vit1)):
+  was1+=ord1(vit11[i])-ord1('a')+1
+print(was1)
