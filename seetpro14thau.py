@@ -6,6 +6,6 @@ i=0
 while i<len(vs12):
   was12+=(ord(vit112[i])-ord(vs12[i]))
   i+=1
-for i in range(i,len(vit12)):
+for i in range(i,len(vit112)):
   was12+=ord(vit112[i])-ord('a')+1
 print(was12)
