@@ -1,7 +1,7 @@
 count12=int(input())
 array=[]
 ss2=[]
-for i in range(count1):
+for i in range(count12):
     array.append(list(map(int,input().split())))
 for llist in array:
     for num in llist:
