@@ -7,5 +7,5 @@ for p in range(0,saw1):
 for p in range(saw1):
      las1=law1[p][0]
      upo1=law1[p][1]
-     yaw1=sum(lost[las-1:upo])
+     yaw1=sum(lost1[las-1:upo])
      print(yaw1)
