@@ -1,4 +1,4 @@
- Pt1 = int(input())
+Pt1 = int(input())
 Qt = [ int(i) for i in input().split()]
 Pt1 = len(Qt)
 Ut = 0
