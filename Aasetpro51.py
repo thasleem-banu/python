@@ -1,24 +1,22 @@
+n11=int(input())
+L1=list(map(int,input().split()))
+n2=[]
+n3=1
+for X in range(n11):
+  V=L1[X:]
+  ans=len(V)
+  for Y in range(ans-1):
+    if V[Y]>0 and V[Y+1]<0:
+      n3=n3+1
+    elif V[Y]<0 and V[Y+1]>0:
+      n3=n3+1
+    else:
+      break
+  n2.append(str(n3))
+  n3=1
+print(" ".join(n2))
 
-def charm(l):
-        bht1=1
+
         
-        for xt in range(0,len(l)-1):
-                if l[xt]!=l[xt+1]:
-                        bht1=bht1+1
-                else:
-                    break
-        return bht1
-num1=int(input())
-hiit=list(map(int,input().split()))
 
-for xt in range(0,len(hiit)):
-        if hiit[xt]>0:
-                hiit[xt]=1
-        else:
-             hiit[xt]=0
-A1=""
 
-for xt in range(0,len(hiit)):
-        B1=hiit[xt::]
-        A1=A1+str(charm(B1))+" "
-print(A1.strip())
